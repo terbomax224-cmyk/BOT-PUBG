@@ -5,7 +5,7 @@ import pytesseract
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.environ.get("8324878303:AAG0qW2YbLQv5dcZEWf1GincwUthWioBWB8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 def get_rank_points(rank):
     if rank == 1:
